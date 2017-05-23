@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>HTML help</title>
   </head>
   <body>
     <div class="container">
       <h1>HTML help</h1>
-
       <p>This is a very special page. If you click somewhere, it will tell you what type of HTML element you clicked on.</p>
 
-      <p>Hi! I'm Walter the Walrus!</p>
-      <img src="img/walrus.jpg">
-      <br>
-      <p>This is my Grandpa Joe.</p>
-      <img src="img/walrus_grandpa.jpeg">
-      <br>
-      <p>Meet my Mom Doris.</p>
-      <img src="img/walrus_mom.jpeg">
-      <br>
-      <p>This is my lazy uncle Bob.</p>
-      <img src="img/walrus_uncle.jpeg">
-    </div>
+        <p>Hi! I'm Walter the Walrus!</p>
+        <div id="Walter">
+        <img src="img/walrus.jpg">
+        </div>
+        <br>
 
-    <script src="js/jquery-1.9.1.js"></script>
-    <script src="js/scripts.js"></script>
+        <div class="Joe">
+          <p>This is my Grandpa <span>Joe</span>.</p>
+          <img src="img/walrus_grandpa.jpeg">
+        </div>
+        <br>
+
+        <div class="Doris">
+          <p>Meet my Mom Doris.</p>
+          <img src="img/walrus_mom.jpeg">
+        </div>
+        <br>
+
+        <div class="Bob">
+          <p>This is my lazy uncle Bob.</p>
+          <img src="img/walrus_uncle.jpeg">
+        </div>
+
+      </div>
   </body>
 </html>
